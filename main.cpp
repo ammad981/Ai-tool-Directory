@@ -24,7 +24,7 @@ private:
 public:
     void addTool(const Tool& tool) {
         tools.push_back(tool);
-        std::cout << "Tool added successfully!" << std::endl;
+        std::cout << "Tool added successfully!. Add next tool." << std::endl;
     }
 
     void listTools() const {
